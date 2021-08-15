@@ -13,7 +13,8 @@ body {
 #main-header,
 #footer {
   background-color: brown;
-  max-width: 400px;
+  width: 100%;
+  max-width: 500px;
   margin: 10px auto;
   border-radius: 4px;
 }
@@ -25,7 +26,8 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 70vh;
-  max-width: 400px;
+  width: 100%;
+  max-width: 500px;
   margin: 10px auto;
 }
 h1 {

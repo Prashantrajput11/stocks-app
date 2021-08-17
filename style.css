@@ -16,11 +16,11 @@ body {
   width: 100%;
 
   max-width: 400px;
-  margin: 10px auto;
+  margin: 5px auto;
   border-radius: 4px;
 }
 #footer {
-  height: 5vh;
+  height: 10vh;
 }
 .container {
   max-width: 400px;
@@ -71,7 +71,7 @@ input:focus {
 .social {
   display: flex;
   justify-content: space-around;
-  padding: 8px;
+  padding: 18px;
 }
 .social li {
   list-style: none;

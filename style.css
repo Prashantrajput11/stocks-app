@@ -14,9 +14,13 @@ body {
 #footer {
   background-color: brown;
   width: 100%;
+
   max-width: 400px;
   margin: 10px auto;
   border-radius: 4px;
+}
+#footer {
+  height: 5vh;
 }
 .container {
   max-width: 400px;
@@ -63,4 +67,22 @@ p {
 
 input:focus {
   outline: none;
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+}
+.social li {
+  list-style: none;
+  font-size: 12px;
+}
+.social li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+.icons {
+  color: white;
+  font-size: 12px;
 }

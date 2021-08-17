@@ -13,12 +13,16 @@ function checkProfitOrLoss() {
     var profit = (current_price.value - purchase_price.value) * quantity.value;
     var profit_percentage = (profit / purchase_price.value) * 100;
     // profit
-    show.innerText = `you are at a profit of ${profit} and profit percentage is ${profit_percentage}%`;
+    show.innerText = `you are at a profit of ${profit} and profit percentage is ${profit_percentage.toFixed(
+      2
+    )}%`;
   } else if (current_price.value < purchase_price.value) {
     //loss
     var loss = (purchase_price.value - current_price.value) * quantity.value;
     var loss_percentage = (loss / purchase_price.value) * 100;
-    show.innerText = `you are at a loss of ${loss} and loss percentage is ${loss_percentage}%`;
+    show.innerText = `you are at a loss of ${loss} and loss percentage is ${loss_percentage.toFixed(
+      2
+    )}%`;
   } else {
     // no change
     console.log("no change");

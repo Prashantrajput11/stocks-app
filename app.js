@@ -25,7 +25,7 @@ function checkProfitOrLoss() {
     )}%`;
   } else {
     // no change
-    show.innerText = "no pain no gain"
+    show.innerText = "no pain no gain, no gain no pain"
   }
 }
 

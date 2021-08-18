@@ -25,12 +25,12 @@ function checkProfitOrLoss() {
     )}%`;
   } else {
     // no change
-    console.log("no change");
+    show.innerText = "no pain no gain"
   }
 }
 
 function validateInputs() {
-  if (current_price.value === "" || purchase_price.value === "" || quantity.value === null) {
+  if (current_price.value === "" || purchase_price.value === "" ) {
     show.innerText = `Fields can not be empty`;
   }
 }
